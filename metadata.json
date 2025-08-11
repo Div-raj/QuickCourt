@@ -1,0 +1,8 @@
+{
+  "name": "QuickCourt",
+  "description": "A web application for booking sports venues and finding players.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "prompt": ""
+}
