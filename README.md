@@ -54,10 +54,10 @@ A modern web application for booking sports venues, connecting players, and mana
 - **Build Tool**: Vite
 
 ## Team memebrs and roles
-Dhruv Goyal - Database design and Data modelling
-Sarthak Sharma - Backend
-Divy Raj - Frontend
-Aman - UI/UX
+- Dhruv Goyal - Database design and Data modelling
+- Sarthak Sharma - Backend
+- Divy Raj - Frontend
+- Aman - UI/UX
 
 ## Project Structure
 
