@@ -2,14 +2,17 @@
 
 A modern web application for booking sports venues, connecting players, and managing sports facilities.
 
+## Video
+
+
 ## Features
 
-- 🏟️ **Venue Booking**: Find and book sports venues in your area
-- 👥 **Player Connect**: Connect with other players using AI-powered message generation
-- 🏆 **Events & Tournaments**: Join sports events and competitions
-- 👥 **Lobbies**: Create and join sports communities
-- 🏢 **Business Portal**: Venue owners can list and manage their facilities
-- 👨‍💼 **Admin Panel**: Platform management and user oversight
+-  **Venue Booking**: Find and book sports venues in your area
+-  **Player Connect**: Connect with other players using AI-powered message generation
+-  **Events & Tournaments**: Join sports events and competitions
+-  **Lobbies**: Create and join sports communities
+-  **Business Portal**: Venue owners can list and manage their facilities
+-  **Admin Panel**: Platform management and user oversight
 
 ## Run Locally
 
@@ -49,6 +52,12 @@ A modern web application for booking sports venues, connecting players, and mana
 - **Routing**: React Router DOM
 - **AI Integration**: Google Gemini API
 - **Build Tool**: Vite
+
+## Team memebrs and roles
+Dhruv Goyal - Database design and Data modelling
+Sarthak Sharma - Backend
+Divy Raj - Frontend
+Aman - UI/UX
 
 ## Project Structure
 
