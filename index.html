@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickCourt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4B352A', // light gray instead of cream
+                        secondary: '#4B352A', // dark brown - main text color
+                        accent: '#57B4BA', // teal
+                        'accent-dark': '#4A9A9F', // darker teal for hover
+                        'text-dark': '#4B352A',
+                        'text-light': '#FFFFFF',
+                        surface: '#FFFFFF',
+                        border: '#E9ECEF', // better border color
+                    },
+                    fontFamily: {
+                       sans: ['Poppins', 'sans-serif'],
+                    },
+                    boxShadow: {
+                      'lg-accent': '0 10px 15px -3px rgba(87, 180, 186, 0.2), 0 4px 6px -2px rgba(87, 180, 186, 0.1)',
+                      'xl-soft': '0 20px 25px -5px rgba(75, 53, 42, 0.1), 0 10px 10px -5px rgba(75, 53, 42, 0.04)',
+                    },
+                }
+            }
+        }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.8.0",
+    "@google/genai": "https://esm.sh/@google/genai"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-primary">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
